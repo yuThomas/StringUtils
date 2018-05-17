@@ -9,4 +9,10 @@ public:
   
   //transfer int to string
 	static string IntToString(int num);
+
+ //detect whether startswith character specified
+	static bool startsWith(char s);
+
+ //detect whether endswith character specified
+	static bool endsWith(char s);
 };
